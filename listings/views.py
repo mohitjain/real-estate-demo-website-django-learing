@@ -3,7 +3,7 @@ from django.shortcuts import render
 from .models import Listing
 
 def index(request):
-    listings = Listing.objects.all()
+    listings = Listing.objects.order_by('-list_date').filter(is_published=True)
 
     paginator = Paginator(listings, 6)
     page_number = request.GET.get('page')
