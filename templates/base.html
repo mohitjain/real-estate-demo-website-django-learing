@@ -13,7 +13,7 @@
     <!-- Custom -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
-    <title>Demo Real Estate Website</title>
+    <title>Demo Real Estate {% block title %} {% endblock %}</title>
 </head>
 <body>
 {% include 'partials/_top_bar.html' %}
