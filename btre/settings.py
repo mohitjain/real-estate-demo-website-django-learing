@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'realtors.apps.RealtorsConfig',
     'django.contrib.humanize',
+    'contacts.apps.ContactsConfig'
 ]
 
 MIDDLEWARE = [
