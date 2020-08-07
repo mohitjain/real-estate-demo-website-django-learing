@@ -2,7 +2,7 @@
 
 --- 
 
-This is just a demo application built for learning Django. Feel free to use the source code in any way. Here are some of the screenshots of the webapp with basic admin features. I built it just for learning Django. 
+This is just a demo application built for learning Django. Feel free to use the source code in any way. Here are some of the screenshots of the webapp with basic admin features, controlling listings, realtor accounts etc. I built it just for learning Django. 
 
 ##Home Page
 
